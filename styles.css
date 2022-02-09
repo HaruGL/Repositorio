@@ -1,0 +1,84 @@
+:root
+{
+    --nord0: #2E3440;
+    --nord1: #3B4252;
+    --nord2: #434C5E;
+    --nord3: #4C566A;
+    --nord4: #D8DEE9;
+    --nord5: #E5E9F0;
+    --nord6: #ECEFF4;
+    --nord7: #8FBCBB;
+    --nord8: #88C0D0;
+    --nord9: #81A1C1;
+    --nord10: #5E81AC;
+    --nord11: #BF616A;
+    --nord12: #D08770;
+    --nord13: #EBCB8B;
+    --nord14: #A3BE8C;
+    --nord15: #B48EAD;
+    --font: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto";
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+    color: var(--nord1);
+}
+
+header, section {
+    width: 960px;
+    margin: 0 auto;
+
+}
+
+header {
+    display: flex;
+    background-color: var(--nord8);
+    color: var(--nord6);
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: var(--nord2);
+    
+}
+
+section {
+    display: flex;
+    border-width: 21px;
+    border-style: solid;
+    border-color: var(--nord2);
+    font-size: 15px;
+}
+
+article {
+    width: 50%;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+aside {
+    width: 50%;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+img {
+    width: 250px;
+    height: 200px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+ul {
+      list-style-type: none;  
+}
